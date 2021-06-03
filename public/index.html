@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-  <title>Document</title>
-</head>
-<body>
-  <h1>titre 1</h1>
-  <video autoplay muted loop>
-    <source src="video/color.mp4" type="video/mp4">
-  </video>
-  <canvas></canvas>
-  
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>videos matte</title>
+  </head>
+  <body>
+    <h1>titre 1</h1>
+
+    <canvas id="canvaVideo" height="625" width="500">
+      Votre navigateur n'accepte pas Canvas
+    </canvas>
+
+    <img id="image" src="video/color.jpg" />
+    <img id="mask" src="video/mask.jpg" />
+    <img id="background" src="video/background.png" />
+
+
+    <script src="script2.js"></script>
+  </body>
 </html>
