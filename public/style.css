@@ -6,7 +6,7 @@ body {
   height: 100%;
 }
 
-#image {
+img {
   display: none;
 }
 #mask {
@@ -14,6 +14,11 @@ body {
 }
 #background {
   display: none;
+}
+
+canvas{
+  width:500px;
+  height:650px;
 }
 
 video {
